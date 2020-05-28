@@ -1,0 +1,102 @@
+/* Portfolio */
+
+button {
+  font-family: inherit;
+}
+
+.filters {
+  border-radius: 4px;
+  padding: 6px 22px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filters:hover,
+.filters:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+
+.filters-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  /* background-color: tomato; */
+}
+
+.filters-container .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  /* background-color: teal; */
+}
+
+.flex-element {
+  width: 370px;
+  margin: 15px;
+  /* border: 1px solid #EEEEEE; */
+}
+
+.flex-element .img {
+  display: block;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-info {
+  background-color: var(--primary-white-color);
+  border: 1px solid #eeeeee;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+}
+.flex-element > .links {
+  text-decoration: none;
+}
+
+.port-titles {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.par-titles {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.filters-about {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.9;
+}
