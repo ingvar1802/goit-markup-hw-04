@@ -109,17 +109,15 @@ img {
 .contacts-nav {
   display: flex;
   margin-left: auto;
-  align-items: baseline;
+  align-items: center;
 }
 
 .contacts-nav .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.contacts-mail,
-.contacts-number {
+.contacts {
   display: flex;
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 31px;
   color: var(--secondary-text-color);
@@ -129,44 +127,18 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contacts-mail:hover,
-.contacts-mail:focus {
+.contacts:hover {
   color: var(--accent-color);
 }
 
-.contacts-number:hover,
-.contacts-number:focus {
-  color: var(--accent-color);
-}
-
-.contacts-mail:hover::before {
-  color: var(--accent-color);
-}
-
-.contacts-mail::before {
-  content: "";
-  display: inline-flex;
+.icon-item {
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
-  color: var(--secondary-text-color);
-  background-image: url("../img/top/mail.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
   align-self: center;
+  fill: var(--secondary-text-color);
 }
 
-.contacts-number::before {
-  content: "";
-  display: inline-flex;
-  margin-right: 10px;
-  width: 10px;
-  height: 15px;
-  color: var(--secondary-text-color);
-  background-image: url("../img/top/smartphone.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  align-self: center;
+.icon-item:hover {
+  fill: var(--accent-color);
 }
 
 /* Footer */
@@ -262,6 +234,16 @@ img {
   display: block;
 }
 
+.submit-button {
+  display: flex;
+  margin-top: 21px;
+}
+
+.submit-link {
+  margin-left: 10px;
+  align-self: center;
+}
+
 .copyright {
   margin-top: 0;
   margin-bottom: 0;
@@ -298,7 +280,7 @@ img {
 .secondary-button {
   display: inline-flex;
   border-radius: 4px;
-  margin-top: 21px;
+
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 29px;
@@ -314,15 +296,4 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.secondary-button::after {
-  content: "";
-  width: 24px;
-  height: 24px;
-  margin-left: 10px;
-  background-image: url("../img/icon-send.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-self: center;
 }

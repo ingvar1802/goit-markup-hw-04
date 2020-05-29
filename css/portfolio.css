@@ -15,12 +15,20 @@ button {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+
+  border-width: 0;
+  /* border-style: outset; 
+  border-color: -internal-light-dark-color(
+    rgb(118, 118, 118),
+    rgb(195, 195, 195)
+  );*/
 }
 
 .filters:hover,
 .filters:focus {
   color: var(--primary-white-color);
   background: var(--accent-color);
+  border-width: 0;
 }
 
 .filters-title {
@@ -55,6 +63,11 @@ button {
 .flex-element .img {
   display: block;
   border-radius: 5px 5px 0px 0px;
+}
+
+.flex-element:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
 .card-info {
