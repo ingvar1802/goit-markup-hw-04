@@ -180,6 +180,7 @@
 }
 .team-img {
   display: block;
+  margin-bottom: 30px;
   border-radius: 4px 4px 0px 0px;
 }
 
@@ -189,9 +190,9 @@
 
 .team-title {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  /* padding-top: 30px; 
+  padding-bottom: 10px;*/
 
   color: var(--primary-text-color);
 
@@ -202,8 +203,8 @@
 
 .team-job {
   margin-top: 0;
-  margin-bottom: 0px;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
+  /* padding-bottom: 16px; */
 
   color: var(--secondary-text-color);
 
@@ -243,7 +244,7 @@
   fill: #afb1b8;
 }
 
-.team-links:hover {
+.links-bg:hover .team-links {
   fill: var(--primary-white-color);
 }
 
@@ -283,6 +284,6 @@
   fill: #afb1b8;
 }
 
-.clients-links:hover {
+.client-links-bg:hover .clients-links {
   fill: var(--accent-color);
 }
