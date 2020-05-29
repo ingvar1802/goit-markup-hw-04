@@ -37,16 +37,6 @@ img {
   list-style: none;
 }
 
-/* .test-container { 
-  margin-left: auto;
-  margin-right: auto;
-  width: 1230px;
-  padding-left: 20px;
-  padding-right: 20px;
-  outline: 2px solid tomato;
-}
-
-
 /* logo */
 
 .logo > .link {
@@ -252,55 +242,19 @@ img {
   margin-right: 10px;
 }
 
-.instagram-footer {
-  display: inline-block;
+.footer-links {
+  fill: var(--primary-white-color);
+}
+.footer-links-bg {
+  display: flex;
+  padding: 12px;
   width: 44px;
   height: 44px;
-  background-image: url("../img/SocLinks/instagram-footer.svg");
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.twitter-footer {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url("../img/SocLinks/twitter-footer.svg");
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.facebook-footer {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url("../img/SocLinks/facebook-footer.svg");
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.linkedin-footer {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  background-image: url("../img/SocLinks/linkedin-footer.svg");
-  background-color: rgba(255, 255, 255, 0.1);
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-
-.accent:hover {
+.footer-links-bg:hover {
   background-color: var(--accent-color);
 }
 
